@@ -5,22 +5,22 @@ body {
 
 }
 
-.page-container {
-    background-color: #dfdfdf;
+.header {
+    display: flex;
+
 }
 
 .logo {
-    width: 200px;
-    margin: 10px;
+    width: 50%;
     border: 3px solid #333;
     background-color: #dfdfdf;
 
 }
 
 .nav-menu {
-    width: 200px;
-    margin: 10px;
+    width: 50%;
     border: 3px solid #333;
     background-color: #dfdfdf;
+    
 
 }
