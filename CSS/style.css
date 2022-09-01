@@ -1,4 +1,26 @@
+*, *::before *::after { box-sizing: border-box; }
+
 body {
     font-family: 'Raleway', sans-serif;
+
+}
+
+.page-container {
+    background-color: #dfdfdf;
+}
+
+.logo {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+
+}
+
+.nav-menu {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
 
 }
