@@ -1,0 +1,29 @@
+class="Filters">
+            
+            <!--Sub-title-->
+            <div>
+                <h3>Find a place for your dream vacation</h3>
+                <p>Downtown or in nature</p>
+            </div>
+            
+            <!--Search bar-->
+            <div>
+                <i></i>
+                <input type="text" placeholder="Marseille">
+                <button>Search</button>
+            </div>
+            
+            <!--Filter buttons-->
+            <div>
+                <span>Filters</span>
+                <button><i></i>Low Cost</button>
+                <button><i></i>Family-friendly</button>
+                <button><i></i>Romantic</button>
+                <button><i></i>Pets Allowed</button>
+            </div>
+            
+            <!--Sub-text-->
+            <div>
+                <i></i>
+                <p>More than 500 accommodations are available in this city</p>
+            </div>
