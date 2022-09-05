@@ -5,22 +5,40 @@ body {
 
 }
 
-.header {
-    display: flex;
-
-}
-
-.logo {
-    width: 50%;
-    border: 3px solid #333;
-    background-color: #dfdfdf;
-
-}
-
-.nav-menu {
-    width: 50%;
-    border: 3px solid #333;
-    background-color: #dfdfdf;
+.page-container {
+    padding: 10px 25px;
+    border: 0px solid black;
     
+}
+
+.nav-bar {
+    display: flex;
+    height: 200px;
+    justify-content: flex-end;
+    align-items: center;
+    border: 0px solid black;
+
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 60px;
+    font-size: 20px;
+    border: 0px solid black;
+} 
+
+.nav-item:first-child {
+    margin-right: auto;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-item a:hover {
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
 
 }
