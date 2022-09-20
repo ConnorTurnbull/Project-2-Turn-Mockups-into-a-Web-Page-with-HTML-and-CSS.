@@ -317,3 +317,82 @@ h1 {
     margin-right: -5px;
 
 }
+
+.activities-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    margin: 5% 0%;
+    padding: 0px 0px;
+    flex-wrap: wrap;
+
+}
+
+.activities-title {
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    height: 10%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.activities-sub-container {
+    height: 90%;
+    width: 50%;
+    display: flex;
+    
+}
+
+.activities-content-container-1 {
+    height: 100%;
+    width: 50%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.activities-content-container-2 {
+    height: 50%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.activities-content-container-3 {
+    height: 30%;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.activities-images {
+    height: 90%;
+    width: 100%;
+    border-top-left-radius: 20px;    
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    display: flex;
+
+}
+
+.activities-content-text {
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+
+}
