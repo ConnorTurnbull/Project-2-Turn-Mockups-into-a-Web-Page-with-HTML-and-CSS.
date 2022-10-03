@@ -12,7 +12,7 @@ html {
 }
 
 .page-container {
-    padding: 10px 25px;
+    padding: 10px 50px;
     
 }
 
@@ -276,7 +276,7 @@ a.accommodation-title-links:hover {
 
 .aside-container {
     display: flex;
-    width: 30%;
+    width: 32%;
     height: 800px;
     border-radius: 20px;
     background-color: #f2f2f2;
@@ -400,32 +400,61 @@ a.aside-title-links:hover {
 
 }
 
-.activities-sub-container {
-    height: 100%;
+a.activities-title-links {
+    text-decoration: none;
+    color: black;
+
+}
+
+a.activities-title-links:hover {
+    color: #0065fc;
+
+}
+
+.activities-sub-container-left {
+    height: 600px;
     width: 50%;
     display: flex;
+    gap: 50px;
+    justify-content: left;
+
+}
+
+.activities-sub-container-right {
+    height: 600px;
+    width: 50%;
+    display: flex;
+    gap: 50px;
+    justify-content: right;
     
 }
 
 .activities-content-container {
-    height: 100%;
-    width: 50%;
+    height: 600px;
+    width: 415px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-
+    box-shadow: 0px 0px 30px -15px;
 }
 
 .activities-content-container-stack {
-    width: 50%;
+    height: 600px;
+    width: 415px;
     font-size: 0px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
 }
 
 .activities-content-container-mid {
-    height: 350px;
+    height: 300px;
     width: 100%;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px -15px;
 
 }
 
@@ -433,12 +462,13 @@ a.aside-title-links:hover {
     height: 250px;
     width: 100%;
     border-radius: 20px;
+    box-shadow: 0px 0px 30px -15px;
 
 }
 
 .activities-image-large {
-    height: 100%;
-    width: 90%;
+    height: 550px;
+    width: 100%;
     border-top-left-radius: 20px;    
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -446,8 +476,8 @@ a.aside-title-links:hover {
 }
 
 .activities-image-mid {
-    height: 300px; 
-    width: 90%;
+    height: 250px; 
+    width: 100%;
     border-top-left-radius: 20px;    
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -456,10 +486,25 @@ a.aside-title-links:hover {
 
 .activities-image-small {
     height: 200px;
-    width: 90%;
+    width: 100%;
     border-top-left-radius: 20px;    
     border-top-right-radius: 20px;
     object-fit: cover;
+
+}
+
+a.activities-image-link-large {
+    height: 550px;
+
+}
+
+a.activities-image-link-medium {
+    height: 250px;
+
+}
+
+a.activities-image-link-small {
+    height: 200px;
 
 }
 
@@ -489,7 +534,7 @@ a.aside-title-links:hover {
 .footer-containers {
     height: 100%;
     width: 100%;
-    padding: 50px 40px;
+    padding: 50px 50px;
 
 }
 
