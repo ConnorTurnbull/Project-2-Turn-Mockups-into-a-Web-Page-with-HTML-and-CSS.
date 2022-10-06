@@ -105,6 +105,26 @@ h1 {
 
 }
 
+.search-button-icon {
+    display: none;
+
+}
+
+.location-pin {
+    font-size: 16px;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+.filters {
+    padding: 0px;
+
+}
+
 .filter-buttons {
     display: inline-flex;
     height: 40px;
@@ -114,6 +134,12 @@ h1 {
     border-radius: 30px;
     margin: 10px 10px;
     
+}
+
+.filter-button-title {
+    font-size: 18px;
+    font-weight: bold;
+
 }
 
 .filter-button-text {
@@ -475,7 +501,7 @@ a.activities-title-links:hover {
 
 }
 
-.activities-image-mid {
+.activities-image-medium {
     height: 250px; 
     width: 100%;
     border-top-left-radius: 20px;    
@@ -566,4 +592,309 @@ a.footer-links {
 a.footer-links:hover {
     color: #0065fc;
 
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .page-container {
+        padding: 0px 0px;
+
+    }
+
+    h1 {
+        font-size: 42px;
+
+    }
+       
+    .sub-title {
+        font-size: 28px;
+
+    }
+
+    .search-bar {
+        width: 100%;
+        padding: 30px 00px;
+
+    }
+
+    .search-field {
+        width: 529px;
+        height: 80px;
+        padding-right: 0;
+        padding-top: 20px;
+
+    }
+
+    .search-field::placeholder {
+        font-size: 32px;
+        padding: 20px 20px;
+        
+    }
+
+    .search-button {
+        border-radius: 20px;
+        height: 80px;
+        width: 80px;
+        margin-left: -20px;
+        
+    }
+
+    .search-button-text {
+        display: none;
+
+    }
+
+    .search-button-icon {
+        display: block;
+        font-size: 28px;
+
+    }
+
+    .location-pin {
+        height: 80px;
+        width: 80px;
+        font-size: 32px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        padding: 25px;
+
+    }
+
+    .filters {
+        padding: 40px;
+        
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    
+    .button-cost {
+        order: 1;
+
+    }
+
+    .button-family {
+        order: 3;
+
+    }
+
+    .button-romantic {
+        order: 2;
+
+    }
+
+    .button-pet {
+        order: 4;
+
+    }
+
+    .filter-button-title {
+        font-size: 24px;
+        width: 100%;
+        
+    }
+
+    .filter-buttons {
+        width: auto;
+        height: 80px;
+        border: 4px solid #f2f2f2;
+        border-radius: 50px;
+        align-items: center;
+        margin-left: 0;
+        
+    }
+
+    .filter-button-text {
+        font-size: 24px;
+        padding-left: 20px;
+        padding-right: 70px;
+
+    }   
+
+    .filter-button-icons {
+        height: 80px;
+        width: 80px;
+        font-size: 32px;
+        justify-content: center;
+        border-radius: 50px;
+
+    }
+
+    .info {
+        font-size: 28px;
+        align-items: center;
+
+    }
+    
+    .accommodations {
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+        gap: 30px;
+
+    }
+
+    .accommodation-container {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+
+    }
+
+    .accommodation-content-containers {
+        width: 100%;
+        height: 400px;
+        
+    }
+
+    .accommodation-names{
+        font-size: 32px;
+
+    }
+
+    .accommodation-text {
+        height: 115px;
+        padding: 0px 25px;
+    }
+
+    .accommodation-sub-text {
+        font-size: 28px;
+        font-weight: bolder;
+        padding: 0px 10px;
+        bottom: 45px;
+
+    }
+
+    .accommodation-rating {
+        bottom: 10px;
+        left: 25px;
+
+    }
+
+    .star-blue {
+        font-size: 24px;
+
+    }
+
+    .star-grey {
+        font-size: 24px;
+
+    }
+
+    .aside-container {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .activities-container {
+        height: 2150px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0px 40px;
+        gap: 50px;
+    }
+
+    .activities-title {
+        height: 50px;
+
+    }
+
+    .activities-sub-container-left {
+        width: 100%;
+        height: 1000px;
+        flex-direction: column;
+
+    }
+    
+    .activities-sub-container-right {
+        width: 100%;
+        height: 1000px;
+        flex-direction: column;
+
+    }
+
+    .activities-content-container {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .activities-content-container-stack {
+        width: 100%;
+        
+    }
+
+    .activities-content-container-mid{
+        height: 300px;
+
+    }
+
+    .activities-content-container-small{
+        height: 300px;
+
+    }
+
+    .activities-image-large {
+        height: 230px;
+
+    }
+
+    .activities-image-medium {
+        height: 230px;
+
+    }
+
+    .activities-image-small {
+        height: 230px;
+
+    }
+    
+    a.activities-image-link-large {
+        height: 230px;
+    
+    }
+    
+    a.activities-image-link-medium {
+        height: 230px;
+    
+    }
+    
+    a.activities-image-link-small {
+        height: 230px;
+    
+    }
+
+    .activities-content-text {
+        height: 70px;
+        align-content: center;
+        font-size: 28px;
+        padding-left: 30px;
+
+    }
+
+    .footer {
+        height: 850px;
+        flex-direction: column;
+        font-size: 28px;
+
+    }
+
+    .footer-containers {
+        height: 300px;
+        padding: 30px 40px;
+        
+    }
 }
