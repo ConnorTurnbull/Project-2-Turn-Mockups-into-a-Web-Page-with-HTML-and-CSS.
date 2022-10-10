@@ -1,17 +1,15 @@
 CHANGES:
 
 -header:
-	-filter buttons sorted for mobile layout
-	-search bar sorted for mobile layout
 	-re-do header to allow changes for mobile layout
 	-nav bar items have bottom border highlighting as opposed to top border
 	-nav item highlighting on click rather than hover
 
 -accom/most pop:
-	-general sizing + alignment changes
-	
+	-fixed image widths in most pop, now scales properly
+		
 -activities:
-
+	-Adjusted content gaps for better alignment and scalability
 
 -footer:
 
@@ -28,11 +26,12 @@ QUESTIONS:
 - ask about presentation - what's required in the slides etc
 
 TO DO:
+
+-finish mobile layout - not scaling well, probably realated to search bar width
+-search field causing overhang in mobile design
 -condense css for nav items
--search field causing overhang
 -shadow adjustments
--fix image widths on most pop
--fix gap between activities on desktop
+-find solution for text wrapping while scaling issue
 -fix widths/heights on all stylings to allow proper scaling
 -media queries mobile / tablet
 -HTML + CSS validator cleanup

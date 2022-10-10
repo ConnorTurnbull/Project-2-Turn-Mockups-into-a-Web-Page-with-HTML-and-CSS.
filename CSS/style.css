@@ -215,7 +215,7 @@ h1 {
     display: flex;
     font-size: 24px;
     font-weight: bold;
-
+    justify-content: space-between;
 }
 
 .accommodation-title {
@@ -247,7 +247,6 @@ a.accommodation-title-links:hover {
     height: 800px;
     border-radius: 3%;
     background-color: #f2f2f2;
-    margin-right: 3%;
     padding: 20px 40px;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -382,7 +381,12 @@ a.aside-title-links:hover {
 }
 
 .aside-image-links {
-    width: 40%;
+    width: 45%;
+
+}
+
+.aside-text {
+    width: 55%;
 
 }
 
@@ -405,7 +409,7 @@ a.aside-title-links:hover {
 .aside-rating {
     position: absolute;
     bottom: 5%;
-    left: 42%;
+    left: 47%;
     
 }
 
@@ -427,10 +431,10 @@ a.aside-title-links:hover {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 600px;
-    margin: 50px 0px;
+    height: fit-content;
+    margin: 20px 0px;
     padding: 0px 0px;
-    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
@@ -442,6 +446,7 @@ a.aside-title-links:hover {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 50px;
 
 }
 
@@ -458,19 +463,18 @@ a.activities-title-links:hover {
 
 .activities-sub-container-left {
     height: 600px;
-    width: 50%;
+    width: 48.5%;
     display: flex;
     gap: 50px;
-    justify-content: left;
+
 
 }
 
 .activities-sub-container-right {
     height: 600px;
-    width: 50%;
+    width: 48.5%;
     display: flex;
     gap: 50px;
-    justify-content: right;
     
 }
 
