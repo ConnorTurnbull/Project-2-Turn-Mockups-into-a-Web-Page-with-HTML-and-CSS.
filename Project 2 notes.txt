@@ -1,0 +1,33 @@
+CHANGES:
+
+-header:
+	-filter buttons sorted for mobile layout
+	-search bar sorted for mobile layout
+	-re-do header to allow changes for mobile layout
+	-nav bar items have bottom border highlighting as opposed to top border
+	-nav item highlighting on click rather than hover
+
+-accom/most pop:
+	-general sizing + alignment changes
+	
+-activities:
+
+
+-footer:
+
+
+-other:
+
+QUESTIONS:
+
+- couldn't figure out how to center placeholder text other than with padding.
+- map pin and search icons keep reverting from css instruction
+- is there a way to inherit size from content for anchors? 
+- would hover behaviours have any effect on mobile device with touch screen?
+
+TO DO:
+
+-shadow adjustments
+-media queries mobile / tablet
+-fix desktop styling - most pop and activities not scaling properly
+-HTML + CSS validator cleanup

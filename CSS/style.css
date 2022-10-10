@@ -22,32 +22,51 @@ html {
     justify-content: flex-end;
     align-items: center;
     padding-inline-start: 0px;
+    font-size: 18px;
 
 }
 
-.nav-item {
+.nav-item-logo {
     list-style: none;
-    margin-right: 60px;
-    font-size: 18px;
+    text-decoration: none;
+    margin-right: auto;
+    height: 100%;
+
+}
+
+.nav-item-accommodations {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 30px;
 
 } 
 
-.nav-item:first-child {
-    margin-right: auto;
-}
+.nav-item-activities {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 30px;
 
-.nav-item a {
+} 
+
+.nav-bar a {
     text-decoration: none;
     color: black;
-    padding-top: 64px;
 
 }
 
-.nav-item a:hover {
-    color: #0065fc;
+.nav-item-accommodations a:hover {
+    padding-top: 66px;
     border-top: 2px solid #0065fc;
+    color: #0065fc;
 
 }
+
+.nav-item-activities a:hover {
+    padding-top: 66px;
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+
+}   
 
 h1 {
     font-size: 24px;
@@ -610,7 +629,59 @@ a.footer-links:hover {
         font-size: 42px;
 
     }
-       
+
+    .nav-bar {
+        height: 200px;
+        font-size: 28px;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    .nav-item-logo {
+        width: 100%;
+        height: 70%;
+        margin-bottom: 20px;
+    }
+
+    .nav-item-accommodations {
+        width: 50%;
+        height: 60px;
+        border-bottom: 5px solid #f2f2f2;
+        
+    }
+
+    .nav-item-accommodations a:hover {
+        border-top: none;
+        color: black;
+
+    }
+
+    .nav-item-accommodations:active {
+        border-bottom: 5px solid #0065fc;
+        color: #0065fc;
+
+    }
+
+    .nav-item-activities {
+        width: 50%;
+        height: 60px;
+        border-bottom: 5px solid #f2f2f2;
+
+    }
+
+    .nav-item-activities a:hover {
+        border-top: none;
+        color: black;
+
+    }
+
+    .nav-item-activities a:active {
+        border-bottom: 5px solid #0065fc;
+        color: #0065fc;
+
+    }
+
     .sub-title {
         font-size: 28px;
 
@@ -618,7 +689,7 @@ a.footer-links:hover {
 
     .search-bar {
         width: 100%;
-        padding: 30px 00px;
+        padding: 30px 0px;
 
     }
 
@@ -791,6 +862,11 @@ a.footer-links:hover {
 
     .star-grey {
         font-size: 24px;
+
+    }
+
+    .show-more {
+        margin-top: 50px;
 
     }
 
