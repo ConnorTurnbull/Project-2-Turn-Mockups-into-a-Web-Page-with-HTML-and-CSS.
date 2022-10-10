@@ -28,10 +28,13 @@ QUESTIONS:
 - ask about presentation - what's required in the slides etc
 
 TO DO:
-
+-condense css for nav items
+-search field causing overhang
 -shadow adjustments
 -fix image widths on most pop
 -fix gap between activities on desktop
 -fix widths/heights on all stylings to allow proper scaling
 -media queries mobile / tablet
 -HTML + CSS validator cleanup
+
+SASS for project 3
