@@ -24,6 +24,7 @@ QUESTIONS:
 - map pin and search icons keep reverting from css instruction
 - is there a way to inherit size from content for anchors? 
 - would hover behaviours have any effect on mobile device with touch screen?
+- ask about presentation - what's required in the slides etc
 
 TO DO:
 
