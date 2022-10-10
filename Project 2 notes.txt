@@ -20,6 +20,7 @@ CHANGES:
 
 QUESTIONS:
 
+- are media queries okay? seem to recall reading that if no media is specified then it defaults to all.
 - couldn't figure out how to center placeholder text other than with padding.
 - map pin and search icons keep reverting from css instruction
 - is there a way to inherit size from content for anchors? 
@@ -29,6 +30,8 @@ QUESTIONS:
 TO DO:
 
 -shadow adjustments
+-fix image widths on most pop
+-fix gap between activities on desktop
+-fix widths/heights on all stylings to allow proper scaling
 -media queries mobile / tablet
--fix desktop styling - most pop and activities not scaling properly
 -HTML + CSS validator cleanup
