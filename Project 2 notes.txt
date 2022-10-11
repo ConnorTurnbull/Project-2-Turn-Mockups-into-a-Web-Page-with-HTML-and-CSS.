@@ -1,15 +1,17 @@
 CHANGES:
 
 -header:
-	-re-do header to allow changes for mobile layout
+	-re-done header to allow changes for mobile layout
 	-nav bar items have bottom border highlighting as opposed to top border
 	-nav item highlighting on click rather than hover
 
 -accom/most pop:
 	-fixed image widths in most pop, now scales properly
+	-added height/width to most pop text to allow better scaling
 		
 -activities:
 	-Adjusted content gaps for better alignment and scalability
+	-Fixed image scalability
 
 -footer:
 

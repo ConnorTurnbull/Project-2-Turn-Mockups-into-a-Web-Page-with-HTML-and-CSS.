@@ -395,6 +395,8 @@ a.aside-title-links:hover {
     font-size: 20px;
     font-weight: bold;
     padding: 15px 10px;
+    height: 30%;
+    width: 100%;
 
 }
 
@@ -403,6 +405,8 @@ a.aside-title-links:hover {
     padding-left: 10px;
     margin-bottom: 30px;
     font-weight: lighter;
+    height: 10%;
+    width: 100%;
 
 }
 
@@ -480,7 +484,7 @@ a.activities-title-links:hover {
 
 .activities-content-container {
     height: 600px;
-    width: 415px;
+    width: 48.5%;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -489,7 +493,7 @@ a.activities-title-links:hover {
 
 .activities-content-container-stack {
     height: 600px;
-    width: 415px;
+    width: 48.5%;
     font-size: 0px;
     display: flex;
     flex-direction: column;
