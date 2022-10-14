@@ -261,7 +261,7 @@ a.accommodation-title-links:hover {
     background-color: white;
     border-radius: 20px;
     position: relative;
-    box-shadow: 0px 0px 30px -15px;
+    box-shadow: 0px 0px 15px -5px;
 
 }
 
@@ -365,7 +365,7 @@ a.aside-title-links:hover {
     background-color: white;
     border-radius: 20px;
     position: relative;
-    box-shadow: 0px 0px 30px -15px;
+    box-shadow: 0px 0px 15px -5px;
 
 }
 
@@ -488,7 +488,7 @@ a.activities-title-links:hover {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px -15px;
+    box-shadow: 0px 0px 15px -5px;
 }
 
 .activities-content-container-stack {
@@ -507,7 +507,7 @@ a.activities-title-links:hover {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 30px -15px;
+    box-shadow: 0px 0px 15px -5px;
 
 }
 
@@ -515,7 +515,7 @@ a.activities-title-links:hover {
     height: 250px;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px -15px;
+    box-shadow: 0px 0px 15px -5px;
 
 }
 
@@ -724,13 +724,13 @@ a.footer-links:hover {
         
     }
 
-    .nav-item-accommodations a:hover {
+    .nav-item-accommodations .nav-item-activities a:hover {
         border-top: none;
         color: black;
 
     }
 
-    .nav-item-accommodations:active {
+    .nav-item-accommodations .nav-item-activities:active {
         border-bottom: 5px solid #0065fc;
         color: #0065fc;
 
@@ -740,18 +740,6 @@ a.footer-links:hover {
         width: 50%;
         height: 60px;
         border-bottom: 5px solid #f2f2f2;
-
-    }
-
-    .nav-item-activities a:hover {
-        border-top: none;
-        color: black;
-
-    }
-
-    .nav-item-activities a:active {
-        border-bottom: 5px solid #0065fc;
-        color: #0065fc;
 
     }
 
@@ -776,22 +764,21 @@ a.footer-links:hover {
 
     .search-field {
         width: 70%;
-        height: 80px;
+        height: 60px;
         padding-right: 0;
-        padding-top: 20px;
+        vertical-align: middle;
     
     }
 
     .search-field::placeholder {
-        font-size: 24px;
-        padding: 20px 20px;
+        font-size: 16px;
         
     }
 
     .search-button {
         border-radius: 20px;
-        height: 80px;
-        width: 80px;
+        height: 60px;
+        width: 60px;
         margin-left: -20px;
         
     }
@@ -803,18 +790,18 @@ a.footer-links:hover {
 
     .search-button-icon {
         display: block;
-        font-size: 28px;
+        font-size: 20px;
 
     }
 
     .location-pin {
-        height: 80px;
-        width: 80px;
-        font-size: 32px;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        padding: 25px;
-
+        height: 60px;
+        width: 60px;
+        font-size: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 20px;
+        
     }
 
 

@@ -5,6 +5,7 @@ CHANGES:
 	-nav bar items have bottom border highlighting as opposed to top border
 	-nav item highlighting on click rather than hover
 	-fixed search bar overhang issue + scaling
+	-search bar re-size for mobile
 
 -accom/most pop:
 	-fixed image widths in most pop, now scales properly
@@ -19,19 +20,18 @@ CHANGES:
 
 -other:
 	-all font sizes reduced for mobile design
+	-all box shadows adjusted to cover corners of containers
 
 QUESTIONS:
 
 - are media queries okay? seem to recall reading that if no media is specified then it defaults to all.
 - map pin and search icons keep reverting from css instruction
 - is there a way to inherit size from content for anchors? 
-- can't center search bar? + couldn't figure out how to center placeholder text other than with padding.
+- can't center search bar? + couldn't figure out how to center placeholder text/icons other than with padding.
 
 
 TO DO:
 
--condense css for nav items
--shadow adjustments
 -find solution for text wrapping while scaling issue
 
 
