@@ -4,6 +4,7 @@ CHANGES:
 	-re-done header to allow changes for mobile layout
 	-nav bar items have bottom border highlighting as opposed to top border
 	-nav item highlighting on click rather than hover
+	-fixed search bar overhang issue + scaling
 
 -accom/most pop:
 	-fixed image widths in most pop, now scales properly
@@ -17,25 +18,23 @@ CHANGES:
 
 
 -other:
+	-all font sizes reduced for mobile design
 
 QUESTIONS:
 
 - are media queries okay? seem to recall reading that if no media is specified then it defaults to all.
-- couldn't figure out how to center placeholder text other than with padding.
 - map pin and search icons keep reverting from css instruction
 - is there a way to inherit size from content for anchors? 
-- would hover behaviours have any effect on mobile device with touch screen?
-- ask about presentation - what's required in the slides etc
+- can't center search bar? + couldn't figure out how to center placeholder text other than with padding.
+
 
 TO DO:
 
--finish mobile layout - not scaling well, probably realated to search bar width
--search field causing overhang in mobile design
 -condense css for nav items
 -shadow adjustments
 -find solution for text wrapping while scaling issue
--fix widths/heights on all stylings to allow proper scaling
--media queries mobile / tablet
+
+
 -HTML + CSS validator cleanup
 
 SASS for project 3

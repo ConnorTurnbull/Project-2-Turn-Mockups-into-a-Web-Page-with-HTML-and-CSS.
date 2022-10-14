@@ -699,13 +699,13 @@ a.footer-links:hover {
     }
 
     h1 {
-        font-size: 42px;
+        font-size: 32px;
 
     }
 
     .nav-bar {
         height: 200px;
-        font-size: 28px;
+        font-size: 20px;
         flex-wrap: wrap;
         text-align: center;
 
@@ -755,27 +755,35 @@ a.footer-links:hover {
 
     }
 
+    .filters {
+        padding: 40px;
+    
+    }
+
     .sub-title {
-        font-size: 28px;
+        font-size: 22px;
 
     }
 
     .search-bar {
         width: 100%;
         padding: 30px 0px;
+        margin: 0px;
+        display: flex;
+        flex-wrap: nowrap;
 
     }
 
     .search-field {
-        width: 529px;
+        width: 70%;
         height: 80px;
         padding-right: 0;
         padding-top: 20px;
-
+    
     }
 
     .search-field::placeholder {
-        font-size: 32px;
+        font-size: 24px;
         padding: 20px 20px;
         
     }
@@ -809,10 +817,7 @@ a.footer-links:hover {
 
     }
 
-    .filters {
-        padding: 40px;
-        
-    }
+
 
     .buttons {
         display: flex;
@@ -875,7 +880,7 @@ a.footer-links:hover {
     }
 
     .info {
-        font-size: 28px;
+        font-size: 22px;
         align-items: center;
 
     }
@@ -905,7 +910,7 @@ a.footer-links:hover {
     }
 
     .accommodation-names{
-        font-size: 32px;
+        font-size: 24px;
 
     }
 
@@ -915,7 +920,7 @@ a.footer-links:hover {
     }
 
     .accommodation-sub-text {
-        font-size: 28px;
+        font-size: 20px;
         font-weight: bolder;
         padding: 0px 10px;
         bottom: 45px;
@@ -929,12 +934,12 @@ a.footer-links:hover {
     }
 
     .star-blue {
-        font-size: 24px;
+        font-size: 18px;
 
     }
 
     .star-grey {
-        font-size: 24px;
+        font-size: 18px;
 
     }
 
@@ -958,6 +963,7 @@ a.footer-links:hover {
 
     .activities-title {
         height: 50px;
+        justify-content: center;
 
     }
 
@@ -1029,7 +1035,7 @@ a.footer-links:hover {
     .activities-content-text {
         height: 70px;
         align-content: center;
-        font-size: 28px;
+        font-size: 24px;
         padding-left: 30px;
 
     }
@@ -1037,7 +1043,7 @@ a.footer-links:hover {
     .footer {
         height: 850px;
         flex-direction: column;
-        font-size: 28px;
+        font-size: 24px;
 
     }
 
