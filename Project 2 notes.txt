@@ -21,6 +21,9 @@ CHANGES:
 -other:
 	-all font sizes reduced for mobile design
 	-all box shadows adjusted to cover corners of containers
+	-formatted HTML and CSS with inbuilt formatter
+	-CSS is clear in validator
+	-Some clean-up for HTML in validator
 
 QUESTIONS:
 
