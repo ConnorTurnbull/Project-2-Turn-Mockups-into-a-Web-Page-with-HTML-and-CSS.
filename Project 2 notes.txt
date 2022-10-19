@@ -27,17 +27,14 @@ CHANGES:
 
 QUESTIONS:
 
-- are media queries okay? seem to recall reading that if no media is specified then it defaults to all.
-- map pin and search icons keep reverting from css instruction
-- is there a way to inherit size from content for anchors? 
-- can't center search bar? + couldn't figure out how to center placeholder text/icons other than with padding.
+
 
 
 TO DO:
 
--find solution for text wrapping while scaling issue
-
-
--HTML + CSS validator cleanup
+-find solution for text wrapping while scaling issue - line-height - given number multiplied by font size
+-flex grow search bar input
 
 SASS for project 3
+-plugin for vscode
+-or install it with nodeJS / package.json

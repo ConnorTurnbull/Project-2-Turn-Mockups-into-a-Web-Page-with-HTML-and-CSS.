@@ -954,8 +954,9 @@ a.footer-links:hover {
 
     .activities-title {
         height: 50px;
-        justify-content: center;
-
+        justify-content: left;
+        padding-left: 40px;
+        
     }
 
     .activities-sub-container-left {
