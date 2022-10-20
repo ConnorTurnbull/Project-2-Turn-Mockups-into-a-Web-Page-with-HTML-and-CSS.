@@ -1,29 +1,21 @@
 CHANGES:
 
 -header:
-	-re-done header to allow changes for mobile layout
-	-nav bar items have bottom border highlighting as opposed to top border
-	-nav item highlighting on click rather than hover
-	-fixed search bar overhang issue + scaling
-	-search bar re-size for mobile
+	-flex grow search bar input so now scales properly
+	-changed logo for mobile design for better centering
 
 -accom/most pop:
-	-fixed image widths in most pop, now scales properly
-	-added height/width to most pop text to allow better scaling
-		
+	-fixed accommodation title text wrapping issues
+	-fixed most pop text wrapping issues
+
 -activities:
-	-Adjusted content gaps for better alignment and scalability
-	-Fixed image scalability
 
 -footer:
 
 
 -other:
-	-all font sizes reduced for mobile design
-	-all box shadows adjusted to cover corners of containers
-	-formatted HTML and CSS with inbuilt formatter
-	-CSS is clear in validator
-	-Some clean-up for HTML in validator
+	-h2 element added + removed from spans to satisfy HTML validator
+	-HTML + CSS validator cleanup
 
 QUESTIONS:
 
@@ -32,8 +24,8 @@ QUESTIONS:
 
 TO DO:
 
--find solution for text wrapping while scaling issue - line-height - given number multiplied by font size
--flex grow search bar input
+-check through tech spec
+
 
 SASS for project 3
 -plugin for vscode
