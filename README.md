@@ -12,18 +12,19 @@ Before approving a final version of the design the company has decided to create
 
 In the morning you receive an email from Sarah, the CTO, providing you with a few final details about the project.
 
-From: Sarah
-To: You
+>From: Sarah </br>
+To: You </br>
 Subject: Booki mockups
+>
+>Hey,
+>
+>We’ve made good progress on the Booki site project. You’ll be dealing with the embedding of the design mockups as HTML/CSS mockups. Your work will then be used as the code base for the rest of the development work. So here are the new mockups that were made by Loïc for both the desktop and the mobile version. This folder also contains the images that need to be embedded into the page.
+>
+>I’ve worked with Loïc to prepare a summary document in order to make everything clear for you. It outlines our design specifications as well as some of the technical rules you will need to abide by.
+>
+>That’s all for now!</br>
 
-Hey,
-
-We’ve made good progress on the Booki site project. You’ll be dealing with the embedding of the design mockups as HTML/CSS mockups. Your work will then be used as the code base for the rest of the development work. So here are the new mockups that were made by Loïc for both the desktop and the mobile version. This folder also contains the images that need to be embedded into the page.
-
-I’ve worked with Loïc to prepare a summary document in order to make everything clear for you. It outlines our design specifications as well as some of the technical rules you will need to abide by.
-
-That’s all for now!
-Good luck with this project!
+Good luck with this project!</br>
 Sarah, CTO @Booki
 
 After receiving all this information, you start with a pen and paper. This will allow you to define the main sections of the page before getting started with the embedding work.
