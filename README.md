@@ -18,9 +18,9 @@ Subject: Booki mockups
 >
 >Hey,
 >
->We’ve made good progress on the Booki site project. You’ll be dealing with the embedding of the design mockups as HTML/CSS mockups. Your work will then be used as the code base for the rest of the development work. So here are the new mockups that were made by Loïc for both the desktop and the mobile version. This folder also contains the images that need to be embedded into the page.
+>We’ve made good progress on the Booki site project. You’ll be dealing with the embedding of the design mockups as HTML/CSS mockups. Your work will then be used as the code base for the rest of the development work. So here are the [new mockups](resources/Booki_resources_EN) that were made by Loïc for both the desktop and the mobile version. This folder also contains the images that need to be embedded into the page.
 >
->I’ve worked with Loïc to prepare a summary document in order to make everything clear for you. It outlines our design specifications as well as some of the technical rules you will need to abide by.
+>I’ve worked with Loïc to prepare a [summary document](resources/WD+P2+-+Technical+and+functional+specifications.pdf) in order to make everything clear for you. It outlines our design specifications as well as some of the technical rules you will need to abide by.
 >
 >That’s all for now!</br>
 
