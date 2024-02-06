@@ -1,7 +1,7 @@
 # Project 2 - Turn Mockups into a Web Page with HTML and CSS.
 
 <h2>Overview</h2>
-This is the first technical project that I completed as part of my web development diploma. The premise of the project was to turn the provided website mockup (below) into a web page using HTML and CSS.
+This is the first technical project that I completed as part of my web development diploma. The premise of the project was to turn the provided website mockup (below) into a single responsive web page using HTML and CSS.
 <h2>Instructions</h2>
 - Use live server or similar </br>
 OR</br>
