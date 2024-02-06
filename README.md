@@ -1,6 +1,15 @@
 # Project 2 - Turn Mockups into a Web Page with HTML and CSS.
 
-Scenario
+<h2>Overview</h2>
+This is the first technical project that I completed as part of my web development diploma. The premise of the project was to turn the provided website mockup (below) into a web page using HTML and CSS.
+<h2>Instructions</h2>
+- Use live server or similar </br>
+OR</br>
+- Open file in web browser.
+<h2>Tech Stack</h2>
+- HTML5</br>
+- CSS3
+<h2>Scenario</h2>
 
 You’ve got your first internship as a developer for Booki, a small company which offers a holiday planning tool. Booki website helps its users to find accommodation and activities in a town of their choosing. Accommodation can be filtered by things such as budget or atmosphere.
 
