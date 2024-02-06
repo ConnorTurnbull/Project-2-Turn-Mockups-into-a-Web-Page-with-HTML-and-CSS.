@@ -5,7 +5,7 @@ This is the first technical project that I completed as part of my web developme
 <h2>Instructions</h2>
 - Use live server or similar </br>
 OR</br>
-- Open file in web browser.
+- Open "index.html" in web browser.
 <h2>Tech Stack</h2>
 - HTML5</br>
 - CSS3
